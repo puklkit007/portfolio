@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
 import { Grid, Typography, Alert, Snackbar } from "@mui/material";
 import { ProjectItem } from "./ProjectItem";
-import { HandJutsu } from "./Projects/HandJutsu";
-import { ArticleSummarizr } from "./Projects/ArticleSummarizr";
+import { DecodingMethods } from "./Projects/DecodingMethods";
+import { BoxOfficePredictor } from "./Projects/BoxOfficePredictor";
 import { JustBreathe } from "./Projects/JustBreathe";
 import { GitHub } from "./Projects/GitHub";
 import { BreakpointsContext } from "../contexts/BreakpointsContext";
@@ -83,11 +83,11 @@ export const Projects = ({ sectionRef, inView }: any) => {
 				>
 					<Grid container item direction={"column"} md={4} xs={12}>
 						<Grid item md={8} xs={12} padding={projectItemPadding}>
-							<ArticleSummarizr />
+							<BoxOfficePredictor />
 						</Grid>
 
 						<Grid item md={4} xs={12} padding={projectItemPadding}>
-							<HandJutsu />
+							<DecodingMethods />
 						</Grid>
 					</Grid>
 					<Grid container item direction={"column"} md={8} xs={12}>

@@ -20,8 +20,9 @@ export const JustBreathe = () => {
 					fontFamily={"Segoe Script"}
 					fontWeight={600}
 					fontSize={{ xs: "1.6em", sm: "2.4em", md: "1.2em", lg: "2em" }}
+					style={{ textAlign: 'center' }}
 				>
-					Just Breathe
+					Fine Tuning Image Transformers
 				</Typography>
 				<Typography
 					variant="body2"
@@ -30,14 +31,15 @@ export const JustBreathe = () => {
 					paddingX={2}
 					fontSize={{ xs: "1em", md: "0.8em", lg: "0.9em" }}
 				>
-					An embedded system utilizing a pressure sensor to monitor and alert if
-					a baby's breathing stops.
+					In this project, we've fine-tuned a BeiT-3 model on the COCO dataset for
+					image captioning and Visual Question Answering tasks.
+
 				</Typography>
 				<ProjectLinks
 					githubLink={
-						"https://github.com/prashanthrebala/Just-Breathe-Fall-2022"
+						"https://github.com/puklkit007/Fine-Tuning-Image-Transformers"
 					}
-					youtubeLink={"https://www.youtube.com/watch?v=v_tUXH6Hyg4"}
+					paperLink={"https://github.com/puklkit007/Fine-Tuning-Image-Transformers/blob/main/Report.pdf"}
 				/>
 			</Box>
 		</ProjectItem>

@@ -7,17 +7,19 @@ import graphql from "../assets/graphql.svg";
 import git from "../assets/git.svg";
 import python from "../assets/python.svg";
 import java from "../assets/java.svg";
-import angular from "../assets/angular.svg";
+import azuredevops from "../assets/azure_devops.png";
 import mysql from "../assets/mysql.svg";
 import html from "../assets/html-5.svg";
 import css from "../assets/css-3.svg";
 import javascript from "../assets/javascript.svg";
 import typescript from "../assets/typescript.svg";
-import tailwind from "../assets/tailwind.svg";
-import nextjs from "../assets/nextjs.svg";
+import pandas from "../assets/pandas.svg.png";
+import tableau from "../assets/tableau.png";
 import docker from "../assets/docker.svg";
-import kubernetes from "../assets/kubernetes.svg";
-import prisma from "../assets/prisma.svg";
+import airflow from "../assets/airflow.png";
+import spark from "../assets/Apache_Spark_logo.svg.png";
+import scala from "../assets/scala.svg.png"
+
 
 export const skills = {
 	skillSet: [
@@ -62,16 +64,6 @@ export const skills = {
 			height: "4rem",
 		},
 		{
-			name: "GraphQL",
-			icon: graphql,
-			height: "5rem",
-		},
-		{
-			name: "Cypress",
-			icon: cypress,
-			height: "4rem",
-		},
-		{
 			name: "Git",
 			icon: git,
 			height: "5rem",
@@ -87,19 +79,9 @@ export const skills = {
 			height: "5rem",
 		},
 		{
-			name: "Angular",
-			icon: angular,
-			height: "4rem",
-		},
-		{
 			name: "MySQL",
 			icon: mysql,
 			height: "3rem",
-		},
-		{
-			name: "NextJS",
-			icon: nextjs,
-			height: "4rem",
 		},
 		{
 			name: "Docker",
@@ -107,42 +89,75 @@ export const skills = {
 			height: "4rem",
 		},
 		{
-			name: "Kubernetes",
-			icon: kubernetes,
-			height: "4rem",
+			name: "Scala",
+			icon: scala,
+			height: "5rem",
 		},
 		{
-			name: "Tailwind",
-			icon: tailwind,
-			height: "4rem",
+			name: "Spark",
+			icon: spark,
+			height: "5rem",
 		},
 		{
-			name: "Prisma",
-			icon: prisma,
-			height: "4rem",
+			name: "Airflow",
+			icon: airflow,
+			height: "5rem",
+		},
+		{
+			name: "Tableau",
+			icon: tableau,
+			height: "5rem",
+		},
+		{
+			name: "Pandas",
+			icon: pandas,
+			height: "5rem",
+		},
+		{
+			name: "Azure Devops",
+			icon: azuredevops,
+			height: "5rem",
 		},
 	],
 	categories: [
 		{
+			title: "Data Engineering",
+			items: [
+				"Apache Spark",
+				"Airflow",
+				"PySpark",
+				"Hadoop",
+				"Tableau"
+			],
+		},
+		{
 			title: "Web Development",
 			items: [
 				"React",
-				"NextJS",
 				"TypeScript",
 				"Node.js",
 				"Express",
-				"Angular",
-				"Tailwind",
 				"HTML / CSS / JS",
 			],
 		},
 		{
 			title: "Programming Languages",
-			items: ["JavaScript", "Python", "Java", "C#"],
+			items: ["Python", "Scala", "Java", 'JavaScript'],
 		},
 		{
 			title: "Data Management",
-			items: ["MongoDB", "GraphQL", "MySQL", "PostgreSQL", "Prisma"],
+			items: ["MongoDB", "MySQL", "PostgreSQL"],
+		},
+		{
+			title: "Modules",
+			items: [
+				"Pandas",
+				"Numpy",
+				"Scikit-Learn",
+				"Beautiful Soup",
+				"Pytorch",
+				"Matplotlib"
+			]
 		},
 		// {
 		// 	title: "CSS Frameworks",
@@ -154,11 +169,11 @@ export const skills = {
 		// },
 		{
 			title: "Tools",
-			items: ["Docker", "Kubernetes", "Git", "GitHub"],
+			items: ["Docker", "Git", "GitHub", "Jira", "Azure Devops"],
 		},
 		{
 			title: "Testing",
-			items: ["Jest", "Cypress"],
+			items: ["Pytest", "Unittest"],
 		},
 	],
 };

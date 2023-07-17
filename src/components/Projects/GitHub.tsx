@@ -5,7 +5,7 @@ import { Box, Link } from "@mui/material";
 export const GitHub = () => {
 	return (
 		<Link
-			href={"https://github.com/prashanthrebala"}
+			href={"https://github.com/puklkit007"}
 			target="_blank"
 			rel="noopener noreferrer"
 			underline="none"
