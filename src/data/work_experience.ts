@@ -15,7 +15,7 @@ export const work_experience = {
 			duration: "3 months",
 			description: [
 				"Implemented a high-capacity Bulk Upload API allowing sellers to add over 5000 products simultaneously to the platform.",
-				"Implemented UI, business logic, API using React and NodeJS for e-commerce web application.",
+				"Enhanced performance of React based dashboard by incorporating lazy loading and optimizing the display logic for posts fetched from MongoDB.",
 				"Spearheaded the integration of shipping services by serving as the primary liaison with UPS, incorporating REST APIs into our shipping procedures for enhanced efficiency."
 			],
 			skills: [
