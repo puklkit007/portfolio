@@ -16,7 +16,7 @@ export const work_experience = {
 			description: [
 				"Implemented a high-capacity Bulk Upload API allowing sellers to add over 5000 products simultaneously to the platform.",
 				"Enhanced performance of React based dashboard by incorporating lazy loading and optimizing the display logic for posts fetched from MongoDB.",
-				"Spearheaded the integration of shipping services by serving as the primary liaison with UPS, incorporating REST APIs into our shipping procedures for enhanced efficiency."
+				"Spearheaded the integration of Algolia Search through REST APIs to significantly enhance the search relevance of products."
 			],
 			skills: [
 				"React",
